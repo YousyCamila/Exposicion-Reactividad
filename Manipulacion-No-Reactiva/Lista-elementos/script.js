@@ -12,6 +12,6 @@ function crearELemento(){
     lista.appendChild(nuevoElemento);
     contador++;
 }
-
+//asigno un evento
 botonAgregar.addEventListener('click', crearELemento);
 
