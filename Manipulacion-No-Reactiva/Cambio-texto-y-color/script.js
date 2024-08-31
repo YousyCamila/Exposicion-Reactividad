@@ -14,9 +14,9 @@ function getColorRandom(){
      }
      return color;
 }
-
+//asignacion del evenyto
 boton.addEventListener('click', function(){
     parrafo.textContent = 'TEXTO CAMBIADO';
     parrafo.style.color = getColorRandom();
-    document.body.style.backgroundColor =getColorRandom();  
+    
 })
